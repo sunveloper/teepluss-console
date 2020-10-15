@@ -15,16 +15,9 @@
     }
   ],
   "minimum-stability": "dev",
-  "repositories": {
-    "private-packagist": {
-      "type": "composer",
-      "url": "https://repo.packagist.com/sunveloper/"
-    },
-    "packagist.org": false
-  },
   "require": {
     "php": ">=5.5.9",
-    "sunveloper/teepluss-support": "^4.0",
+    "sunveloper/teepluss-support": "^4.0.3",
     "wp-cli/php-cli-tools": "^0.10.5",
     "illuminate/support": "^5.0 || ^6.0 || ^7.0 || ^8.0",
     "illuminate/console": "^5.0 || ^6.0 || ^7.0 || ^8.0"
@@ -33,7 +26,7 @@
   "scripts": {},
   "autoload": {
     "psr-4": {
-      "Laradic\\Console\\": "src/"
+      "Sunveloper\\TeeplussConsole\\": "src/"
     }
   }
 }

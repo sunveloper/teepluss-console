@@ -5,13 +5,13 @@
  * MIT License and copyright information bundled with this package
  * in the LICENSE file or visit http://radic.mit-license.com
  */
-namespace Laradic\Console\Progress;
+namespace Sunveloper\TeeplussConsole\Progress;
 
 /**
  * A progress bar class based on wp-cli/php-cli-tools.
  * Modifies a few properties/values to alter the displayed stuff.
  *
- * @package        Laradic\Console
+ * @package        Sunveloper\TeeplussConsole
  * @version        1.0.0
  * @author         Robin Radic
  * @license        MIT License

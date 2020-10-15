@@ -5,7 +5,7 @@
  * MIT License and copyright information bundled with this package
  * in the LICENSE file or visit http://radic.mit-license.com
  */
-namespace Laradic\Console;
+namespace Sunveloper\TeeplussConsole;
 
 use App;
 use ErrorException;
@@ -14,7 +14,7 @@ use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 /**
  * Provides command registration functionality
  *
- * @package        Laradic\Console
+ * @package        Sunveloper\TeeplussConsole
  * @version        1.0.0
  * @author         Robin Radic
  * @license        MIT License

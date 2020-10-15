@@ -2,12 +2,12 @@
 /**
  * Part of the Radic packages.
  */
-namespace Laradic\Console;
+namespace Sunveloper\TeeplussConsole;
 
 use Illuminate\Console\Command as BaseCommand;
-use Laradic\Console\Notify\Dots;
-use Laradic\Console\Notify\Spinner;
-use Laradic\Console\Progress\Bar;
+use Sunveloper\TeeplussConsole\Notify\Dots;
+use Sunveloper\TeeplussConsole\Notify\Spinner;
+use Sunveloper\TeeplussConsole\Progress\Bar;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\VarDumper\VarDumper;
@@ -15,7 +15,7 @@ use Symfony\Component\VarDumper\VarDumper;
 /**
  * The abstract Command class. Other commands can extend this class to benefit from a larger toolset
  *
- * @package     Laradic\Console
+ * @package     Sunveloper\TeeplussConsole
  * @author      Robin Radic
  * @license     MIT
  * @copyright   2011-2015, Robin Radic
@@ -35,7 +35,7 @@ abstract class Command extends BaseCommand
     protected $requireSudo = false;
 
     /**
-     * @var \Laradic\Support\ConsoleColor
+     * @var \Sunveloper\TeeplussSupport\ConsoleColor
      */
     protected $colors;
 

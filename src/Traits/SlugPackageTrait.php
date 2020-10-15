@@ -5,14 +5,14 @@
  * MIT License and copyright information bundled with this package
  * in the LICENSE file or visit http://radic.mit-license.com
  */
-namespace Laradic\Console\Traits;
+namespace Sunveloper\TeeplussConsole\Traits;
 
-use Laradic\Support\String;
+use Sunveloper\TeeplussSupport\String;
 
 /**
  * This is the SlugPackage class.
  *
- * @package        Laradic\Console
+ * @package        Sunveloper\TeeplussConsole
  * @version        1.0.0
  * @author         Robin Radic
  * @license        MIT License

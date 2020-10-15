@@ -2,14 +2,14 @@
 /**
  * Part of the Radic packages.
  */
-namespace Laradic\Console;
+namespace Sunveloper\TeeplussConsole;
 
 use JakubOnderka\PhpConsoleColor\InvalidStyleException;
 
 /**
  * Provides console color functionality,
  *
- * @package        Laradic\Console
+ * @package        Sunveloper\TeeplussConsole
  * @version        1.0.0
  * @author         JakubOnderka
  * @license        ?
